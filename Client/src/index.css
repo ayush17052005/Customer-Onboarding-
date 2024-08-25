@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  @font-face {
+    font-family: 'Outfit';
+    src: url('https://fonts.gstatic.com/s/outfit/v7/FC7URz1B5nhYRaHhSQpPf4qI.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}
