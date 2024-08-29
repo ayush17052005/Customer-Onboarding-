@@ -1,10 +1,11 @@
 import React from "react";
-import { assets } from "../assets/assets";
+import { assets } from "../../assets/assets";
+
 const ContactUs = () => {
   return (
     <div className="flex flex-col md:flex-row gap-16 items-center h-fit  mx-10 md:mx-0">
       {/* Left Side - Image */}
-      <div className="w-full md:w-1/2 hidden md:flex justify-center md:justify-end mb-8 md:mb-0 hover:scale-95 duration-300">
+      <div className="w-full md:w-1/2 hidden md:flex justify-center md:justify-end mb-8 md:mb-0 ">
         <img
           src={assets.contact}
           alt="Contact Us"
@@ -13,7 +14,7 @@ const ContactUs = () => {
       </div>
 
       {/* Right Side - Form */}
-      <div className="w-full md:w-1/2  py-20 px-10 mx-20 rounded-lg shadow-lg bg-neutral-200 hover:scale-105 duration-300">
+      <div className="w-full md:w-1/2  py-20 px-10 mx-20 rounded-lg shadow-lg bg-neutral-200 ">
         <h2 className="text-3xl font-semibold mb-6 text-gray-800">Contact Us</h2>
         <form className="space-y-4">
           <div>

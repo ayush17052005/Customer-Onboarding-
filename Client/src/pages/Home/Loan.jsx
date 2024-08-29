@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState} from 'react'
-import {loans} from '../assets/loans.js'
-import LoanCard from '../components/LoanCard.jsx';
-import { assets } from '../assets/assets.js';
+import {loans} from '../../assets/loans.js'
+import LoanCard from '../../components/LoanCard.jsx';
+import { assets } from '../../assets/assets.js';
 const Loan = () => {
 
   return (

@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   const [menu, setMenu] = useState('home');
   return (
-    <nav className="bg-white bg-opacity-95 fixed w-full z-10 top-0 py-1 text-black">
+    <nav className="bg-white bg-opacity-95 fixed w-full h-16  z-10 top-0 py-1 text-black">
       <div className="container mx-auto flex items-center justify-between px-4 py-2">
 
         <div className=" text-lg font-semibold">
@@ -32,16 +32,16 @@ const Navbar = () => {
         <div className={`md:flex ${isOpen ? 'block' : 'hidden'} w-full md:w-auto`}>
           <ul className="flex flex-col md:flex-row md:items-center md:space-x-6">
             <li>
-              <Link spy={true} smooth={true}  offset={-65} duration={400} to="home"  className=" block py-2 px-4">Home</Link>
+              <Link spy={true} smooth={true}  offset={-65} duration={400} to="home"  className="cursor-pointer block py-2 px-4">Home</Link>
             </li>
             <li>
-              <Link spy={true} smooth={true} offset={-65} duration={400} to="loans" className=" block py-2 px-4 ">Products</Link>
+              <Link spy={true} smooth={true} offset={-65} duration={400} to="loans" className="cursor-pointer block py-2 px-4 ">Products</Link>
             </li>
             <li>
-              <Link spy={true} smooth={true} offset={-65} duration={400} to="chatbot" className=" block py-2 px-4">Chat bot</Link>
+              <Link spy={true} smooth={true} offset={-65} duration={400} to="chatbot" className="cursor-pointer block py-2 px-4">Chat bot</Link>
             </li>
             <li>
-              <Link spy={true} smooth={true} offset={-65} duration={400} to="contact" className=" block py-2 px-4">Contact Us</Link>
+              <Link spy={true} smooth={true} offset={-65} duration={400} to="contact" className="cursor-pointer block py-2 px-4">Contact Us</Link>
             </li>
           </ul>
         </div>

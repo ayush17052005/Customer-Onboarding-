@@ -1,16 +1,17 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar.jsx'
 // import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home.jsx'
-import Loan from './pages/Loan.jsx'
+import Home from './pages/Home/Home.jsx'
+import Loan from './pages/Home/Loan.jsx'
 import Footer from './components/Footer.jsx'
 import { Element } from 'react-scroll';
-import Chatbot from './pages/Chatbot.jsx';
-import ContactUs from './pages/ContactUs.jsx'
+import Chatbot from './pages/Home/Chatbot.jsx';
+import ContactUs from './pages/Home/ContactUs.jsx'
 import Btn from './components/Btn.jsx'
+// import  Form  from './pages/Form.jsx'
 
 function App() {
- 
+
   return (
     <>
       <div className='app font-medium  overflow-hidden '>
@@ -28,10 +29,13 @@ function App() {
       <Element id="contact" style={{ height: '100vh' }}>
        <ContactUs/>
         </Element>
+      {/* <Element id="form" style={{ height: '100vh' }}>
+       <Form/>
+        </Element> */}
         
       </div>
       <Btn/>
-      <Footer />
+      {/* <Footer /> */}
       
     </>
   )
