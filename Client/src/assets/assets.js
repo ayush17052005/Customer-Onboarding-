@@ -10,6 +10,8 @@ import h1 from './h1.png'
 import h2 from './h2.png'
 import h3 from './h3.png'
 
+
+
 export const assets = {
   logo,
   HomeImg,
@@ -19,5 +21,6 @@ export const assets = {
   linkedinIcon,
   twitterIcon,
   contact,
-  h1,h2,h3,
+  h1, h2, h3,
+ 
 }
