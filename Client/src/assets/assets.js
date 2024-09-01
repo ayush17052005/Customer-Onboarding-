@@ -1,5 +1,5 @@
 import logo from "./logo.png"
-import HomeImg from "./HomeImg.png"
+import HomeImg from "./homeImg.png"
 import loanImg from "./loanImg.png"
 import bot from "./bot.png"
 import facebookIcon from "./facebookIcon.png"
