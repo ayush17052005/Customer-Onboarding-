@@ -35,7 +35,7 @@ const Home = () => {
       </div>
         <div className="flex justify-center  item-center content-center  h-full  md:ml-7 ">
           <img className="hidden md:block  w-[40%] h-[40%] pt-10" src={assets.h3} alt="" />
-          <img className=" w-[90%] h-[90%]" src={assets.Home_img} alt="img" />
+          <img className=" w-[90%] h-[90%]" src={assets.HomeImg} alt="img" />
           <img className='hidden md:block w-[40%] h-[40%] pt-10' src={assets.h1} alt="" />
         </div>
       </div>

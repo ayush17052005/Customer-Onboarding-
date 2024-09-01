@@ -10,9 +10,9 @@ const Footer = () => {
           <p className='text-4xl'>TVS Credit</p>
           <p>TVS Credit is a financial services company dedicated to meeting the diverse financial requirements of rural India. Offering a comprehensive range of loan products, the company is committed to overcoming the unique challenges faced by customers in smaller towns, especially those with limited or no credit history.</p>
           <div className="flex justify-between gap-5 ">
-            <img className='hover:scale-105' src={assets.facebook_icon} alt="" />
-            <img className='hover:scale-105' src={assets.twitter_icon} alt="" />
-            <img className='hover:scale-105' src={assets.linkedin_icon} alt="" />
+            <img className='hover:scale-105' src={assets.facebookIcon} alt="" />
+            <img className='hover:scale-105' src={assets.twitterIcon} alt="" />
+            <img className='hover:scale-105' src={assets.linkedinIcon} alt="" />
           </div>
         </div>
         <div className="center flex flex-col items-start gap-5 cursor-pointer">
