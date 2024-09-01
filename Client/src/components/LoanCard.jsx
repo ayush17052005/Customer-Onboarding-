@@ -7,7 +7,7 @@ const LoanCard = ({ items }) => {
      <div className="w-[70%] overflow-hidden relative ">
       <div className="flex space-x-5 overflow-x-auto no-scrollbar p-4 ">
         {items.map((item, index) => (
-          <div key={index} className={`w-[80%] md:w-[32%] h-auto bg-gray-200 shadow-lg rounded-lg p-4 flex-shrink-0 hover:scale-95 duration-300  ${item.secondaryBgColor}`}>
+          <div key={index} className={`w-[80%] md:w-[32%] h-auto bg-gray-200 shadow-lg rounded-lg  flex-shrink-0 hover:scale-95 duration-300  ${item.secondaryBgColor}`}>
             <img className="h-72 w-full object-cover rounded-md mb-auto" src={item.imageUrl} alt={item.type} />
             <div className="md:p-8">
               <h3 className="text-lg font-semibold md:mb-2">{item.type}</h3>
